@@ -1,0 +1,46 @@
+.feedback-form{
+    --background: white;
+    --border: rgba(0, 0, 0, 0.125);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.feedback-form label{
+    margin-bottom: 10px;
+}
+
+.email, .message{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+
+    color: hsl(var(--fgColorH), var(--fgColorS), var(--fgColorL));
+        font-size: 0.825rem;
+        outline: 1px dashed transparent;
+        outline-offset: 2px;
+}
+
+.email:hover, .message:hover,
+.email:focus,
+.message:focus
+{
+    color: hsl(var(--fgColorH), var(--fgColorS), calc(var(--fgColorL) * 0.85));
+        transition: color 0.25s;
+}
+
+button{
+    background-color: rgb(144,199,252);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+button:hover,button:focus{
+background-color: rgb(129,147,219);
+transition: background-color 0.25s;
+}
+

@@ -2,6 +2,11 @@
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --animation-duration: 250ms; }
 
+.gallery-container{
+    display: block;
+    margin-bottom: 40px;
+}
+
 .gallery {
     max-width: 1128px;
     z-index: 0;
