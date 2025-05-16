@@ -26,6 +26,8 @@ const lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt', 
     captionSelector:'img',
     captionPosition:'outside', 
-    CaptionDelay:'250ms'
+	CaptionDelay: '250ms',
+	overlayOpacity: '0.8',
+	styles: '../css/styles.css',
 });
  
