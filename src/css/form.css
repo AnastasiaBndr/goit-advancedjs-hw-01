@@ -20,11 +20,9 @@
 .feedback-form{
     font-family: Montserrat;
     overflow: hidden;
-    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.04rem;
     line-height: 1.5;
-
 }
 
 .feedback-form .email{
