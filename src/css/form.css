@@ -72,6 +72,7 @@ textarea[name="message"]:focus
 {
     border-color:  #000000;
     transition: border-color 0.25s;
+
 }
 
 button{
@@ -91,6 +92,7 @@ button{
 }
 
 button:hover,button:focus{
+    border: none;
 background-color: var(--button-hover-color);
 transition: background-color 0.25s;
 }

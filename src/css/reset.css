@@ -50,3 +50,8 @@ input{
   -webkit-appearance: none;
   appearance: none;
 }
+
+input:hover,input:focus,input:active{
+  border-color: transparent;
+  outline: none;
+}
